@@ -1,0 +1,135 @@
+body{
+    background-color: #02152b;
+}
+h1{
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+}
+b{
+    color: #94b8d7;
+}
+h2.Profesion{
+    font-size: 20px;
+    font-family: "Poppins", Verdana;
+    color: rgb(255, 255, 255);
+}
+h2{
+    font-size: 25px;
+    font-family: "Rubik", Verdana;
+    color: rgb(255, 255, 255);
+}
+p{
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans";
+    text-align: justify;
+    font-size: 15px;
+}
+/*!PRESENTACION*/
+div.Presentacion{
+    margin-right: 50%;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+img.perfil{
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    border-radius: 50%;
+}
+/*!PRESENTACION*/
+div.contacto{
+    margin-right: 50%;
+    margin-top: 0%;
+    text-align: center;
+    width: 100%;
+}
+img.enlaces_redes{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 10px;
+}
+/*! SOBRE MI*/
+div.Sobre_mi{
+    height: 40%;
+    width: 80%;
+    padding: 5px 20px;
+    line-height: 20px ;
+}
+div.Tecnologias{
+    height: 40%;
+    width: 80%;
+    padding: 5px 20px;
+    line-height: 20px ;
+}
+img.Habilidades{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+/*!FORMACION*/
+div.Formación{
+    height: 40%;
+    width: 80%;
+    padding: 5px 20px;
+    line-height: 20px ;
+}
+/*!PROYECTOSn*/
+img.tec_utilizado{
+    width: 40px;
+    height: 40px;
+}
+img.ver_proyecto{
+    width: 120px;
+    height: 25px;
+    border-radius: 10px 10px;
+}
+h3.nombre_de_proyecto{
+    font-size: 25px;
+    font-family: "Poppins", Verdana;
+    color: rgb(255, 255, 255);
+}
+div.Proyectos{
+    height: 40%;
+    width: auto;
+    padding: 1%;
+    line-height: 20px ;
+}
+table.Proyect{
+    border: 2px solid #153f59;
+    border-collapse: collapse;
+    width: auto;
+}
+table td{
+    border: 2px solid #153f59;
+    padding: 20px;
+}
+td.Contenedores_img{
+    padding: none;
+}
+img.img_proyect{
+    height: 200px;
+    width: 200px;
+}
+/*!REDES*/
+div.Redes{
+    margin-right: 50%;
+    margin-top: 0%;
+    text-align: center;
+    width: 100%;
+}
+img.en_redes{
+    height: 30px;
+    width: 30px;
+    border-radius: 25%;
+    padding: 10px;
+}
+p.final{
+    color: rgb(255, 255, 255);
+    font-family: "Open Sans";
+    text-align: center;
+    font-size: 15px;
+
+}
