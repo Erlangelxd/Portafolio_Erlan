@@ -33,8 +33,8 @@ div.Presentacion{
     height: auto;
 }
 img.perfil{
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     margin-top: 40px;
     border-radius: 50%;
 }
@@ -94,7 +94,7 @@ h3.nombre_de_proyecto{
 div.Proyectos{
     height: 40%;
     width: auto;
-    padding: 1%;
+    padding: 5px 20px;
     line-height: 20px ;
 }
 table.Proyect{
