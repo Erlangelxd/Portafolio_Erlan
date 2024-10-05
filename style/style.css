@@ -15,17 +15,17 @@ b{
     color: #007bff;
 }
 b:hover{
-    color: #3a94f5;
+    color: rgb(255, 167, 4);
+
 }
 h2{
     color: white;
-    font-size: 40px;
+    font-size: 45px;
     font-family: "Open Sans", system-ui;
 }
  /* Perfil*/ 
 div.Perfil{
-    padding: 15px;
-    margin-top: 1%;
+    margin-top: 50px;
     text-align: center;
 }
 img.perfil{
@@ -42,7 +42,7 @@ div.Redes{
 }
 img.redes:hover{
     background-color: #ffffff;
-    transform:scale(1.2)
+    transform:scale(1.06)
 }
 img.redes{
     height: 50px;
@@ -62,9 +62,11 @@ p.sobre_mi{
     font-size: 20px;
     font-family: "Sora", system-ui;
     text-align:left;
-    padding: 30px;
+    padding: 40px;
     margin-left: 5%;
     margin-right: 5%;
+    background-color: #111111;
+    border-radius: 40px 0% 40px 0%;
 }
  /* Tecnologias*/
 div.Tecnologias{
@@ -86,6 +88,11 @@ img.tecnologias:hover{
     transform:scale(1.2)
 }
 /* Proyectos*/
+h3{
+    color: white;
+    font-size: 30px;
+    font-family: "Open Sans", system-ui;
+}
 .proyect_title{
     text-align: center;
 }
@@ -104,7 +111,7 @@ div.proyectos {
     background-color: #1a1919;
 }
 div.proyectos:hover{
-    transform:scale(1.1)
+    transform:scale(1.05)
 }
 .Proyectos img {
     max-width: 100%;
@@ -114,23 +121,25 @@ p.descripcion{
     color: white;
     font-size: 15px;
     font-family: "Sora", system-ui;
+    padding: 10px;
 }
 a.enlace{
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     font-size: 20px;
     font-family: "Sora", system-ui;
-    background-color: #111111;
+    background-color: #007bff;
     padding: 10px;
     border-radius: 15px;
 }
 a.enlace:hover{
-    background-color: #db9600;
+    background-color: #00a8db;
     border-radius: 15px;
+    color: black;
 }
 /* Redes final*/
 div.Redes_final{
-    padding: 5px;
+    padding: 10px;
     text-align: center;
 }
 img.redes{
@@ -138,10 +147,17 @@ img.redes{
     width: 50px;
     border-radius: 50%;
     padding: 5px;
+    background-color: #080808;
 }
 a{
     text-decoration: none;
     color: #ffffff;
     font-size: 20px;
     font-family: "Sora", system-ui;
+}
+.red_contenedor{
+    text-align: center;
+    background-color: #080808;
+    padding: 10px;
+    border-radius: 30px;
 }
