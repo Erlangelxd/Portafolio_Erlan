@@ -1,135 +1,147 @@
+ /* cuerpo*/ 
 body{
-    background-color: #02152b;
+    background-color: #222222;
+    align-items: center;
 }
+ /* Generales*/
 h1{
-    font-size: 35px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Verdana, Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(255, 255, 255);
+    color: white;
+    font-size: 30px;
+    font-family: "Poppins", system-ui;
+
 }
 b{
-    color: #94b8d7;
+    font-size: 40px;
+    color: #007bff;
 }
-h2.Profesion{
-    font-size: 20px;
-    font-family: "Poppins", Verdana;
-    color: rgb(255, 255, 255);
+b:hover{
+    color: #3a94f5;
 }
 h2{
-    font-size: 25px;
-    font-family: "Rubik", Verdana;
-    color: rgb(255, 255, 255);
+    color: white;
+    font-size: 40px;
+    font-family: "Open Sans", system-ui;
 }
-p{
-    color: rgb(255, 255, 255);
-    font-family: "Open Sans";
-    text-align: justify;
-    font-size: 15px;
-}
-/*!PRESENTACION*/
-div.Presentacion{
-    margin-right: 50%;
+ /* Perfil*/ 
+div.Perfil{
+    padding: 15px;
+    margin-top: 1%;
     text-align: center;
-    width: 100%;
-    height: auto;
 }
 img.perfil{
-    height: 150px;
-    width: 150px;
-    margin-top: 40px;
-    border-radius: 50%;
-}
-/*!PRESENTACION*/
-div.contacto{
-    margin-right: 50%;
-    margin-top: 0%;
-    text-align: center;
-    width: 100%;
-}
-img.enlaces_redes{
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    padding: 10px;
-}
-/*! SOBRE MI*/
-div.Sobre_mi{
-    height: 40%;
-    width: 80%;
-    padding: 5px 20px;
-    line-height: 20px ;
-}
-div.Tecnologias{
-    height: 40%;
-    width: 80%;
-    padding: 5px 20px;
-    line-height: 20px ;
-}
-img.Habilidades{
-    height: 100px;
-    width: 100px;
-    padding: 10px;
-}
-/*!FORMACION*/
-div.Formación{
-    height: 40%;
-    width: 80%;
-    padding: 5px 20px;
-    line-height: 20px ;
-}
-/*!PROYECTOSn*/
-img.tec_utilizado{
-    width: 40px;
-    height: 40px;
-}
-img.ver_proyecto{
-    width: 120px;
-    height: 25px;
-    border-radius: 10px 10px;
-}
-h3.nombre_de_proyecto{
-    font-size: 25px;
-    font-family: "Poppins", Verdana;
-    color: rgb(255, 255, 255);
-}
-div.Proyectos{
-    height: 40%;
-    width: auto;
-    padding: 5px 20px;
-    line-height: 20px ;
-}
-table.Proyect{
-    border: 2px solid #153f59;
-    border-collapse: collapse;
-    width: auto;
-}
-table td{
-    border: 2px solid #153f59;
-    padding: 20px;
-}
-td.Contenedores_img{
-    padding: none;
-}
-img.img_proyect{
     height: 200px;
     width: 200px;
+    border-radius: 50%;
 }
-/*!REDES*/
+ /* Redes*/
 div.Redes{
-    margin-right: 50%;
-    margin-top: 0%;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding: 5px;
     text-align: center;
-    width: 100%;
 }
-img.en_redes{
-    height: 30px;
-    width: 30px;
-    border-radius: 25%;
+img.redes:hover{
+    background-color: #ffffff;
+    transform:scale(1.2)
+}
+img.redes{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 5px;
+}
+ /* Sobre mi*/
+div.Sobre_mi{
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    text-align: center;
+}
+p.sobre_mi{
+    color: white;
+    font-size: 20px;
+    font-family: "Sora", system-ui;
+    text-align:left;
+    padding: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+ /* Tecnologias*/
+div.Tecnologias{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+img.tecnologias{
+    width: 100px;
+    height: 100px;
     padding: 10px;
 }
-p.final{
-    color: rgb(255, 255, 255);
-    font-family: "Open Sans";
+img.tecnologias:hover{
+    transform:scale(1.2)
+}
+/* Proyectos*/
+.proyect_title{
     text-align: center;
+}
+div.Proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+div.proyectos {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    background-color: #1a1919;
+}
+div.proyectos:hover{
+    transform:scale(1.1)
+}
+.Proyectos img {
+    max-width: 100%;
+    max-height: 200px;
+}
+p.descripcion{
+    color: white;
     font-size: 15px;
-
+    font-family: "Sora", system-ui;
+}
+a.enlace{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Sora", system-ui;
+    background-color: #111111;
+    padding: 10px;
+    border-radius: 15px;
+}
+a.enlace:hover{
+    background-color: #db9600;
+    border-radius: 15px;
+}
+/* Redes final*/
+div.Redes_final{
+    padding: 5px;
+    text-align: center;
+}
+img.redes{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Sora", system-ui;
 }
